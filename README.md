@@ -65,17 +65,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Clone 
+## Clone 
 ```ruby
   git clone "URL"
   ```
-### Create new branch before working on it
+## Create new branch before working on it
 ```ruby
   git branch YOURBRANCHNAME
    ```
-### Switch to your branch
+## Switch to your branch
 ```ruby
   git checkout YOURBRANCHNAME
   ```
+## Do your desired changes
+## check for the untracked file using
+ ` git status `
+## add the untracked files using
+  ` git add . `
+## commit your changes
+  ` git commit -m "Your comments" `
+## push your branch
+    `git push -u origin YOURBRANCHNAME `
+## compare and create a pull request and wait for the reviewing process
+
+
+<p align="center"> Made with &#x2764; by <b> Kishan</b> </p>
+
+    
   
 
