@@ -85,7 +85,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ## commit your changes
   ` git commit -m "Your comments" `
 ## push your branch
-    `git push -u origin YOURBRANCHNAME `
+    ```ruby
+    git push -u origin YOURBRANCHNAME
+    ```
 ## compare and create a pull request and wait for the reviewing process
 
 
