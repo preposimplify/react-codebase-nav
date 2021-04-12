@@ -1,0 +1,27 @@
+
+.main-content{
+    background-color: #28305a;
+}
+
+.main-content img{
+  border-radius: 20px;
+  margin-top: 4em;
+  height: 100%;
+}
+.head-c h2{
+  margin-top: 20px;
+  color: white;
+}
+.btn button{
+  background-color: teal;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  border-color: white;
+  border-width: medium;
+  color: white;
+}
+ p{
+  margin-top: 2em; border-radius: 15px; border-left: 20px solid teal; border-right: 20px solid teal;
+  color: white;
+  font-size: 18px;
+}
