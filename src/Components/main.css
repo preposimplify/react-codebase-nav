@@ -18,9 +18,9 @@
  p{
   margin-top: 2em;
   border-radius: 15px;
-  border-left: 20px solid #333;
-  border-right: 20px solid #eee;
-  color: black;
+  border-left: 20px solid teal;
+  border-right: 20px solid teal;
+  color: white;
   font-size: 18px;
   cursor: text;
   padding-left: 2em;
