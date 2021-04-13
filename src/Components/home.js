@@ -9,11 +9,11 @@ const Home = () => {
         <h2>Welcome to Prep-O-Simplify!!</h2>
       </div>
       <div className="btn">
-        <button>Let's Begin</button>
+        <button><b>Let's Begin</b></button>
 
-    //  <div className="para">
-        <p><b>One-Stop Solution for Campus Placement Preparation <br />exclusively for DIT'ians</b></p>
-    //  </div>
+
+        <p><b>One-Stop Solution for <font>Campus Placement Preparation <br />exclusivelyfor DIT'ians </font></b></p>
+
       </div>
     </div>
   );
