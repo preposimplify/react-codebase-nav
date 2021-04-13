@@ -1,8 +1,3 @@
-
-.main-content{
-    background-color: #28305a;
-}
-
 .main-content img{
   border-radius: 20px;
   margin-top: 4em;
@@ -18,10 +13,19 @@
   border-radius: 20px;
   border-color: white;
   border-width: medium;
-  color: white;
+  color: white
 }
  p{
-  margin-top: 2em; border-radius: 15px; border-left: 20px solid teal; border-right: 20px solid teal;
-  color: white;
+  margin-top: 2em;
+  border-radius: 15px;
+  border-left: 20px solid #333;
+  border-right: 20px solid #eee;
+  color: black;
   font-size: 18px;
+  cursor: text;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+font {
+  color: white;
 }
