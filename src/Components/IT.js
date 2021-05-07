@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, HashRouter,Switch } from "react-router-dom";
+import { BrowserRouter, Route,Link, HashRouter,Switch } from "react-router-dom";
 import './it.css';
 import {FlippingCard, FlippingCardFront, FlippingCardBack} from 'react-ui-cards';
 import Product from './product';
+import Service from './service';
+import Startup from './startups';
 const IT = (props) => {
   const styles1 = {
     backgroundColor:"white",
@@ -11,7 +13,6 @@ const IT = (props) => {
   }
   return (
    <div>
-   <BrowserRouter>
    <div class="container h-100">
   <div class="row align-middle">
     <div class="col-md-6 col-lg-4 column">
@@ -21,7 +22,7 @@ const IT = (props) => {
 COMPANIES</h1>
           <p>Companies like Adobe, Amazon, Commvault, Goldman Sachs, Lenovo, Zscaler</p>
         </div>
-        <a href="#">more</a>
+        <Link to="/Product">More!</Link>
         <div class="ico-card">
         <i class="fa fa-rebel"></i>
       </div>
@@ -34,7 +35,7 @@ COMPANIES</h1>
 STARTUPS</h1>
           <p>Companies like Navigus, Postman, Clicklabs, Bobble AI, Avalara Systems</p>
         </div>
-        <a href="#">more</a>
+        <Link to="/Startup">More!</Link>
       <div class="ico-card">
         <i class="fa fa-codepen"></i>
       </div>
@@ -46,7 +47,7 @@ STARTUPS</h1>
           <h1>SERVICE BASED <br />COMPANIES</h1>
           <p>Companies like TCS, Infosys, Capgemini, Cognizant, Wipro, Accenture, Deloitte</p>
         </div>
-        <Link to="#">click</Link>
+        <Link to="/Service">More!</Link>
       <div class="ico-card">
         <i class="fa fa-empire"></i>
       </div>
@@ -55,7 +56,6 @@ STARTUPS</h1>
     
   </div>
 </div>
-</BrowserRouter>
 
 </div>
   

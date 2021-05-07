@@ -9,6 +9,9 @@ import { BrowserRouter, Route, Link, HashRouter,Switch } from "react-router-dom"
 import Home from './Components/home';
 import IT from './Components/IT';
 import Footer from './Components/footer';
+import Service from './Components/service';
+import Product from './Components/product';
+import Startup from './Components/startups';
 function App() {
 
   return (
@@ -19,8 +22,11 @@ function App() {
       <div className="App">
       <Switch>
       <Route path = '/' exact component={() => <Home /> } />
-      <Route path = "/about" exact component={() => <About /> } />
+      <Route path = '/About' component={About} />
       <Route path = "/IT" component={IT} />
+      <Route path = "/Service" component={Service} />
+      <Route path = "/Product" component={Product} />
+      <Route path = "/Startup" component={Startup} />
       </Switch>
       <Footer />
     </div>
